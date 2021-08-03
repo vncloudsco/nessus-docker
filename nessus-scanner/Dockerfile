@@ -10,7 +10,7 @@ RUN apt-get install -y net-tools iputils-ping tzdata
 
 RUN rm -rf /var/lib/apt/lists/*
 
-COPY Nessus-7.1.1-ubuntu1110_amd64.deb /tmp/Nessus.deb
+COPY Nessus-8.15.0-ubuntu910_i386.deb /tmp/Nessus.deb
 
 RUN dpkg -i /tmp/Nessus.deb
 
